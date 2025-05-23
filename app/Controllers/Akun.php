@@ -34,7 +34,7 @@ class Akun extends BaseController
 			$id_user = session()->get('id'); // atau sesuai sistem Anda
 
 			$data = [
-				'password' => password_hash($password, PASSWORD_DEFAULT),
+				'password' => sha1(md5($password)),
 				'updated_dttm' => date('Y-m-d H:i:s'),
 				'updated_user' => session()->get('id'),
 			];

@@ -45,7 +45,7 @@ class Pengguna extends BaseController
 					'user'				=> "$data->username",
 					'level'				=> "$data->level",
 					'status_user'		=> "$data->status_user",
-					'action'	=> "<span><a onclick='_btnEdit(\"$data->id\",\"$data->username\",\"$data->nama\")'><button type='button' class='btn bg-gradient-info'><i class='nav-icon fas fa-pen'></i> Ubah</button></a></span><span><a  onclick='_btnDelete(\"$data->id\",\"$data->username\",\"$data->nama\")'><button type='button' class='btn bg-gradient-danger'><i class='nav-icon fas fa-trash'></i> Hapus</button></a></span>",
+					'action'	=> "<span><a onclick='_btnEdit(\"$data->id\",\"$data->username\",\"$data->nama\")'><button type='button' class='btn bg-gradient-primary btn-sm'><i class='nav-icon fas fa-pen'></i> Ubah</button></a></span><span><a  onclick='_btnDelete(\"$data->id\",\"$data->username\",\"$data->nama\")'><button type='button' class='btn bg-gradient-danger btn-sm'><i class='nav-icon fas fa-trash'></i> Hapus</button></a></span>",
 				);
 				$ret = array('data' => $output);
 			}

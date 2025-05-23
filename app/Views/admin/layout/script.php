@@ -37,9 +37,7 @@
 <?php
 if ($active == 'pengguna') {
 	echo view('admin/pengguna/js');
-} elseif ($active == 'provinsi') {
-	echo view('admin/provinsi/js');
-} elseif ($active == 'kota') {
-	echo view('admin/kota/js');
+} else if ($active == 'jurusan') {
+	echo view('admin/jurusan/js');
 }
 ?>

@@ -3,7 +3,6 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
-use App\Models\PengunjungModel;
 
 class Dashboard extends BaseController
 {
@@ -12,7 +11,6 @@ class Dashboard extends BaseController
 
 	public function __construct()
 	{
-		$this->m_pengunjung = new PengunjungModel();
 		$this->session = \Config\Services::session();
 		$this->session->start();
 	}

@@ -199,3 +199,368 @@ INFO - 2025-05-20 17:06:04 --> Session: Class initialized using 'CodeIgniter\Ses
 WARNING - 2025-05-20 17:06:04 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
 INFO - 2025-05-20 17:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 WARNING - 2025-05-20 17:06:05 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:28:44 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:28:45 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:33:38 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:33:39 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:33:40 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:33:40 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:33:40 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:33:41 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:33:44 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:33:45 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:33:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:35:15 --> Used the default controller.
+INFO - 2025-05-20 17:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:35:15 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:38:23 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2025-05-20 17:47:25 --> Class 'App\Database\Seeds\AkademikSeeders' not found
+#0 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Commands/Database/Seed.php(124): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#1 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CLI/Commands.php(100): CodeIgniter\Commands\Database\Seed->run(Array)
+#2 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CLI/CommandRunner.php(107): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#3 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CLI/CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index(Array)
+#4 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap('index', 'db:seed', 'AkademikSeeders')
+#5 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#6 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CLI/Console.php(86): CodeIgniter\CodeIgniter->run()
+#8 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/spark(57): CodeIgniter\CLI\Console->run()
+#9 {main}
+INFO - 2025-05-20 17:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:48:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:49:00 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:49:03 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:49:09 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:50:37 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2025-05-20 17:50:37 --> Invalid file: admin/layout/menu.php
+#0 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/layout/me...')
+#1 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/View/View.php(525): CodeIgniter\View\View->render('admin/layout/me...', NULL, true)
+#2 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/app/Views/admin/layout/main_layout.php(41): CodeIgniter\View\View->include('admin/layout/me...')
+#3 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/View/View.php(246): include('/Users/redhoriv...')
+#4 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/View/View.php(257): CodeIgniter\View\View->render('admin/layout/ma...', Array, true)
+#5 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Common.php(1119): CodeIgniter\View\View->render('admin/akun/pass...', Array, true)
+#6 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/app/Controllers/Akun.php(27): view('admin/akun/pass...', Array)
+#7 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(918): App\Controllers\Akun->password()
+#8 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akun))
+#9 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Commands/Server/rewrite.php(34): require_once('/Users/redhoriv...')
+#12 {main}
+INFO - 2025-05-20 17:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:50:54 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2025-05-20 17:50:54 --> Invalid file: admin/layout/menu.php
+#0 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/layout/me...')
+#1 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/View/View.php(525): CodeIgniter\View\View->render('admin/layout/me...', NULL, true)
+#2 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/app/Views/admin/layout/main_layout.php(41): CodeIgniter\View\View->include('admin/layout/me...')
+#3 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/View/View.php(246): include('/Users/redhoriv...')
+#4 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/View/View.php(257): CodeIgniter\View\View->render('admin/layout/ma...', Array, true)
+#5 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Common.php(1119): CodeIgniter\View\View->render('admin/akun/pass...', Array, true)
+#6 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/app/Controllers/Akun.php(27): view('admin/akun/pass...', Array)
+#7 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(918): App\Controllers\Akun->password()
+#8 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akun))
+#9 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Commands/Server/rewrite.php(34): require_once('/Users/redhoriv...')
+#12 {main}
+INFO - 2025-05-20 17:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:51:08 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:51:24 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:51:46 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:52:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:52:11 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2025-05-20 17:52:13 --> Class 'App\Models\PengunjungModel' not found
+#0 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(890): App\Controllers\Dashboard->__construct()
+#1 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Commands/Server/rewrite.php(34): require_once('/Users/redhoriv...')
+#5 {main}
+INFO - 2025-05-20 17:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:52:31 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:52:32 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:52:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:52:35 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:52:35 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:52:36 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:52:37 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:52:38 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:52:38 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+ERROR - 2025-05-20 17:57:32 --> mysqli_sql_exception: Table 'app_ppdb_kelulusan.pengguna' doesn't exist in /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `pe...')
+#1 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Database/BaseBuilder.php(2091): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/app/Database/Seeds/PenggunaSeeders.php(15): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#5 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Database/Seeder.php(174): App\Database\Seeds\PenggunaSeeders->run()
+#6 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Commands/Database/Seed.php(124): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CLI/Commands.php(100): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CLI/CommandRunner.php(107): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CLI/CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap('index', 'db:seed', 'PenggunaSeeders')
+#11 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CLI/Console.php(86): CodeIgniter\CodeIgniter->run()
+#14 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/spark(57): CodeIgniter\CLI\Console->run()
+#15 {main}
+INFO - 2025-05-20 17:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:59:25 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 17:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 17:59:26 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:17:00 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:17:01 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:17:39 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:17:42 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:17:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:18:04 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:18:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:18:40 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:32:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:33:48 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:34:02 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:34:03 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:34:42 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2025-05-20 18:34:42 --> Invalid file: admin/jurusan.php
+#0 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/jurusan.p...')
+#1 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Common.php(1119): CodeIgniter\View\View->render('admin/jurusan', Array, true)
+#2 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/app/Views/admin/layout/script.php(45): view('admin/jurusan')
+#3 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/View/View.php(246): include('/Users/redhoriv...')
+#4 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/View/View.php(525): CodeIgniter\View\View->render('admin/layout/sc...', NULL, true)
+#5 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/app/Views/admin/layout/main_layout.php(49): CodeIgniter\View\View->include('admin/layout/sc...')
+#6 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/View/View.php(246): include('/Users/redhoriv...')
+#7 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/View/View.php(257): CodeIgniter\View\View->render('admin/layout/ma...', Array, true)
+#8 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Common.php(1119): CodeIgniter\View\View->render('admin/jurusan/i...', Array, true)
+#9 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/app/Controllers/Jurusan.php(28): view('admin/jurusan/i...', Array)
+#10 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(918): App\Controllers\Jurusan->index()
+#11 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurusan))
+#12 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#14 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Commands/Server/rewrite.php(34): require_once('/Users/redhoriv...')
+#15 {main}
+INFO - 2025-05-20 18:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:36:35 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:36:43 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:39:26 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2025-05-20 18:39:26 --> Invalid file: admin/jurusan/js.php
+#0 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/jurusan/j...')
+#1 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Common.php(1119): CodeIgniter\View\View->render('admin/jurusan/j...', Array, true)
+#2 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/app/Views/admin/layout/script.php(41): view('admin/jurusan/j...')
+#3 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/View/View.php(246): include('/Users/redhoriv...')
+#4 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/View/View.php(525): CodeIgniter\View\View->render('admin/layout/sc...', NULL, true)
+#5 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/app/Views/admin/layout/main_layout.php(49): CodeIgniter\View\View->include('admin/layout/sc...')
+#6 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/View/View.php(246): include('/Users/redhoriv...')
+#7 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/View/View.php(257): CodeIgniter\View\View->render('admin/layout/ma...', Array, true)
+#8 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Common.php(1119): CodeIgniter\View\View->render('admin/jurusan/i...', Array, true)
+#9 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/app/Controllers/Jurusan.php(28): view('admin/jurusan/i...', Array)
+#10 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(918): App\Controllers\Jurusan->index()
+#11 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurusan))
+#12 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#14 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Commands/Server/rewrite.php(34): require_once('/Users/redhoriv...')
+#15 {main}
+INFO - 2025-05-20 18:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:40:09 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:40:11 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2025-05-20 18:40:11 --> Call to undefined method App\Models\JurusanModel::order_by
+#0 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/app/Controllers/Jurusan.php(33): CodeIgniter\Model->__call('order_by', Array)
+#1 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(918): App\Controllers\Jurusan->getData()
+#2 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurusan))
+#3 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Commands/Server/rewrite.php(34): require_once('/Users/redhoriv...')
+#6 {main}
+INFO - 2025-05-20 18:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:40:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:40:34 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2025-05-20 18:40:34 --> Trying to get property 'kode_jurusan' of non-object
+#0 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/app/Controllers/Jurusan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/redhoriv...', 40, Array)
+#1 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(918): App\Controllers\Jurusan->getData()
+#2 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurusan))
+#3 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Commands/Server/rewrite.php(34): require_once('/Users/redhoriv...')
+#6 {main}
+INFO - 2025-05-20 18:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:41:19 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:41:21 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2025-05-20 18:41:21 --> Trying to get property 'kode_jurusan' of non-object
+#0 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/app/Controllers/Jurusan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/redhoriv...', 40, Array)
+#1 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(918): App\Controllers\Jurusan->getData()
+#2 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurusan))
+#3 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Commands/Server/rewrite.php(34): require_once('/Users/redhoriv...')
+#6 {main}
+INFO - 2025-05-20 18:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:41:34 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:41:36 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2025-05-20 18:41:36 --> Trying to get property 'kode_jurusan' of non-object
+#0 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/app/Controllers/Jurusan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/redhoriv...', 40, Array)
+#1 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(918): App\Controllers\Jurusan->getData()
+#2 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurusan))
+#3 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Commands/Server/rewrite.php(34): require_once('/Users/redhoriv...')
+#6 {main}
+INFO - 2025-05-20 18:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:41:39 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2025-05-20 18:41:39 --> Trying to get property 'kode_jurusan' of non-object
+#0 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/app/Controllers/Jurusan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Users/redhoriv...', 40, Array)
+#1 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(918): App\Controllers\Jurusan->getData()
+#2 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurusan))
+#3 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Commands/Server/rewrite.php(34): require_once('/Users/redhoriv...')
+#6 {main}
+INFO - 2025-05-20 18:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:44:30 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:44:31 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:44:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:44:51 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:45:59 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:46:00 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2025-05-20 18:46:00 --> Undefined variable: data
+#0 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/app/Controllers/Jurusan.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/redhoriv...', 43, Array)
+#1 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(918): App\Controllers\Jurusan->getData()
+#2 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurusan))
+#3 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Commands/Server/rewrite.php(34): require_once('/Users/redhoriv...')
+#6 {main}
+INFO - 2025-05-20 18:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:46:41 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:46:42 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:48:06 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:48:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:48:48 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:48:49 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:49:28 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:49:28 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:49:31 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:49:32 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:50:44 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:50:45 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:52:03 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:52:03 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:52:29 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:52:29 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:52:31 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:52:32 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:53:00 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:53:01 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:53:06 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:53:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:57:56 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:57:57 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:57:58 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:57:59 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:58:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:58:11 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:58:13 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:58:14 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 18:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 18:58:14 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 23:54:33 --> Used the default controller.
+INFO - 2025-05-20 23:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 23:54:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 23:54:33 --> Used the default controller.
+INFO - 2025-05-20 23:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 23:54:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 23:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 23:54:39 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2025-05-20 23:54:39 --> Trying to access array offset on value of type null
+#0 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/app/Controllers/Login.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Users/redhoriv...', 37, Array)
+#1 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(918): App\Controllers\Login->get_login()
+#2 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Users/redhorivai/Documents/sribertech/aplikasi pendaftaran dan pengumuman siswa/system/Commands/Server/rewrite.php(34): require_once('/Users/redhoriv...')
+#6 {main}
+INFO - 2025-05-20 23:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 23:54:42 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 23:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 23:54:44 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 23:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 23:54:48 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2025-05-20 23:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 23:54:48 --> Session: Sessions is enabled, and one exists.Please don't $session->start();

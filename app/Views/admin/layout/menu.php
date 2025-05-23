@@ -70,22 +70,12 @@
 					</a>
 				</li>
 				<li class="nav-item">
-					<a href="<?= base_url('admin/provinsi') ?>" class="nav-link <?php if ($active == "provinsi") {
+					<a href="<?= base_url('admin/akademik') ?>" class="nav-link <?php if ($active == "akademik") {
 																					echo "active";
 																				} ?>">
-						<i class="nav-icon fas fa-plus"></i>
+						<i class="nav-icon fas fa-clock"></i>
 						<p>
-							Data Provinsi
-						</p>
-					</a>
-				</li>
-				<li class="nav-item">
-					<a href="<?= base_url('admin/kota') ?>" class="nav-link <?php if ($active == "kota") {
-																				echo "active";
-																			} ?>">
-						<i class="nav-icon fas fa-info"></i>
-						<p>
-							Data Kota
+							Data Tahun Akademik
 						</p>
 					</a>
 				</li>

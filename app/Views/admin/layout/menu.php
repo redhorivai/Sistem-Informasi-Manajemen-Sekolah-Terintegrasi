@@ -79,11 +79,28 @@
 						</p>
 					</a>
 				</li>
+				<li class="nav-header">PENGUMUMAN</li>
+				<li class="nav-item">
+					<a href="javascript:void(0)" class="nav-link">
+						<i class="nav-icon fas fa-user-plus"></i>
+						<p>
+							Data Siswa
+						</p>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="javascript:void(0)" class="nav-link">
+						<i class="nav-icon fas fa-user-graduate"></i>
+						<p>
+							Data Kelulusan
+						</p>
+					</a>
+				</li>
 				<li class="nav-header">LAINNYA</li>
 				<li class="nav-item">
-					<a href="<?= base_url('admin/password')?>" class="nav-link <?php if ($active == "password") {
-																				echo "active";
-																			} ?>">
+					<a href="<?= base_url('admin/password') ?>" class="nav-link <?php if ($active == "password") {
+																					echo "active";
+																				} ?>">
 						<i class="nav-icon fas fa-key"></i>
 						<p>
 							Ubah Kata Sandi

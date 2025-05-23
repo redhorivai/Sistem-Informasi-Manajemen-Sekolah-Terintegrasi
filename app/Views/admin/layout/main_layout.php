@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Aplikasi Buku Kunjungan Digital</title>
+	<title>Aplikasi PPDB dan Pengumuman Kelulusan</title>
 
 	<!-- google font -->
 	<link rel="stylesheet" href="<?= base_url(); ?>/assets-admin/css/fonts-googleapis.css">
@@ -28,6 +28,7 @@
 	<!-- Select2 -->
 	<link rel="stylesheet" href="<?= base_url(); ?>/assets-admin/plugins/select2/css/select2.min.css">
 	<link rel="stylesheet" href="<?= base_url(); ?>/assets-admin/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 
 </head>

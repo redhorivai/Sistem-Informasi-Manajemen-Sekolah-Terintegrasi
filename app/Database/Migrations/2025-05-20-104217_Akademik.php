@@ -20,7 +20,7 @@ class Akademik extends Migration
 				'constraint' 	 => '20',
 			],
 			'tahun_akademik'	 	 => [
-				'type'       	 => 'YEAR',
+				'type'       	 => 'DATE',
 				'null'			 => false,
 			],
 			'keterangan'	 	 => [

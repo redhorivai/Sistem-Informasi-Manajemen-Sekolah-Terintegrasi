@@ -1,10 +1,10 @@
 <script type="text/javascript">
     var method;
     $(function() {
-        _getJurusan();
+        _getAkademik();
     });
 
-    function _getJurusan() {
+    function _getAkademik() {
         $("#viewTable").DataTable({
             "responsive": true,
             "lengthChange": false,
@@ -36,7 +36,7 @@
                     "data": "action"
                 },
             ],
-            "ajax": "<?= site_url('Jurusan/getData') ?>",
+            "ajax": "<?= site_url('Akademik/getData') ?>",
         });
     }
 
@@ -49,15 +49,15 @@
 
     function _simpanData() {
         const url = method === "save" ?
-            "<?= site_url('Jurusan/insert_data') ?>" :
-            "<?= site_url('Jurusan/update_data') ?>";
+            "<?= site_url('akademik/insert_data') ?>" :
+            "<?= site_url('akademik/update_data') ?>";
 
         const fields = [{
-                id: "kode_jurusan",
+                id: "kode_akademik",
                 required: true
             },
             {
-                id: "nama_jurusan",
+                id: "tahun_akademik",
                 required: true
             },
             {
@@ -99,7 +99,7 @@
                         $('#viewTable').DataTable().ajax.reload();
                     }
                     if (data.gagal) {
-                        toastr.error(`kode jurusan: <b>${$("#kode_jurusan").val()}</b> sudah ada, silakan coba yang lain`);
+                        toastr.error(`kode Akademik: <b>${$("#kode_akademik").val()}</b> sudah ada, silakan coba yang lain`);
                     }
                 },
                 error: function() {
@@ -109,10 +109,10 @@
         }
     }
 
-    function _btnEdit(id, kode_jurusan, nama_jurusan) {
+    function _btnEdit(id, kode_akademik, tahun_akademik) {
         method = "edit";
         $.ajax({
-            url: "<?= site_url('Jurusan/get_edit') ?>",
+            url: "<?= site_url('Akademik/get_edit') ?>",
             type: 'GET',
             dataType: "JSON",
             data: {
@@ -124,8 +124,8 @@
                     return;
                 }
                 $('[name=id]').val(data.id);
-                $('[name=kode_jurusan]').val(data.kode_jurusan);
-                $('[name=nama_jurusan]').val(data.nama_jurusan);
+                $('[name=kode_akademik]').val(data.kode_akademik);
+                $('[name=tahun_akademik]').val(data.tahun_akademik);
                 $('[name=keterangan]').val(data.keterangan);
                 $('.select2').select2();
                 $('#modal-form').modal('show');
@@ -137,10 +137,10 @@
         });
     }
 
-    function _btnDelete(id, kode_jurusan, nama_jurusan) {
-        if (confirm(`Apakah Anda Yakin Hapus Data ${nama_jurusan} ?`)) {
+    function _btnDelete(id, kode_akademik, tahun_akademik) {
+        if (confirm(`Apakah Anda Yakin Hapus Data ${tahun_akademik} ?`)) {
             $.ajax({
-                url: "<?= site_url('Jurusan/del_data') ?>",
+                url: "<?= site_url('Akademik/del_data') ?>",
                 type: "POST",
                 data: {
                     id: id
@@ -148,7 +148,7 @@
                 dataType: "JSON",
                 success: function(response) {
                     if (response.sukses) {
-                        toastr.error(`anda telah menghapus <b>${nama_jurusan}</b>`);
+                        toastr.error(`anda telah menghapus data <b>${tahun_akademik}</b>`);
                         $('#viewTable').DataTable().ajax.reload();
                     }
                     if (response.gagal) {

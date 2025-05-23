@@ -1,10 +1,10 @@
 <script type="text/javascript">
     var method;
     $(function() {
-        _getJurusan();
+        _getKelas();
     });
 
-    function _getJurusan() {
+    function _getKelas() {
         $("#viewTable").DataTable({
             "responsive": true,
             "lengthChange": false,
@@ -36,7 +36,7 @@
                     "data": "action"
                 },
             ],
-            "ajax": "<?= site_url('Jurusan/getData') ?>",
+            "ajax": "<?= site_url('Kelas/getData') ?>",
         });
     }
 
@@ -49,15 +49,15 @@
 
     function _simpanData() {
         const url = method === "save" ?
-            "<?= site_url('Jurusan/insert_data') ?>" :
-            "<?= site_url('Jurusan/update_data') ?>";
+            "<?= site_url('Kelas/insert_data') ?>" :
+            "<?= site_url('Kelas/update_data') ?>";
 
         const fields = [{
-                id: "kode_jurusan",
+                id: "kode_kelas",
                 required: true
             },
             {
-                id: "nama_jurusan",
+                id: "nama_kelas",
                 required: true
             },
             {
@@ -99,7 +99,7 @@
                         $('#viewTable').DataTable().ajax.reload();
                     }
                     if (data.gagal) {
-                        toastr.error(`kode jurusan: <b>${$("#kode_jurusan").val()}</b> sudah ada, silakan coba yang lain`);
+                        toastr.error(`kode kelas: <b>${$("#kode_kelas").val()}</b> sudah ada, silakan coba yang lain`);
                     }
                 },
                 error: function() {
@@ -109,10 +109,10 @@
         }
     }
 
-    function _btnEdit(id, kode_jurusan, nama_jurusan) {
+    function _btnEdit(id, kode_kelas, nama_kelas) {
         method = "edit";
         $.ajax({
-            url: "<?= site_url('Jurusan/get_edit') ?>",
+            url: "<?= site_url('Kelas/get_edit') ?>",
             type: 'GET',
             dataType: "JSON",
             data: {
@@ -124,8 +124,8 @@
                     return;
                 }
                 $('[name=id]').val(data.id);
-                $('[name=kode_jurusan]').val(data.kode_jurusan);
-                $('[name=nama_jurusan]').val(data.nama_jurusan);
+                $('[name=kode_kelas]').val(data.kode_kelas);
+                $('[name=nama_kelas]').val(data.nama_kelas);
                 $('[name=keterangan]').val(data.keterangan);
                 $('.select2').select2();
                 $('#modal-form').modal('show');
@@ -137,10 +137,10 @@
         });
     }
 
-    function _btnDelete(id, kode_jurusan, nama_jurusan) {
-        if (confirm(`Apakah Anda Yakin Hapus Data ${nama_jurusan} ?`)) {
+    function _btnDelete(id, kode_kelas, nama_kelas) {
+        if (confirm(`Apakah Anda Yakin Hapus Data ${nama_kelas} ?`)) {
             $.ajax({
-                url: "<?= site_url('Jurusan/del_data') ?>",
+                url: "<?= site_url('Kelas/del_data') ?>",
                 type: "POST",
                 data: {
                     id: id
@@ -148,7 +148,7 @@
                 dataType: "JSON",
                 success: function(response) {
                     if (response.sukses) {
-                        toastr.error(`anda telah menghapus <b>${nama_jurusan}</b>`);
+                        toastr.error(`anda telah menghapus data <b>${nama_kelas}</b>`);
                         $('#viewTable').DataTable().ajax.reload();
                     }
                     if (response.gagal) {

@@ -39,5 +39,9 @@ if ($active == 'pengguna') {
 	echo view('admin/pengguna/js');
 } else if ($active == 'jurusan') {
 	echo view('admin/jurusan/js');
+} else if ($active == 'kelas') {
+	echo view('admin/kelas/js');
+} else if ($active == 'akademik') {
+	echo view('admin/akademik/js');
 }
 ?>

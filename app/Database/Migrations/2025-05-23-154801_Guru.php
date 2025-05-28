@@ -27,7 +27,7 @@ class Guru extends Migration
 				'type'      	 => 'CHAR',
 				'constraint' 	 => '20',
 			],
-			'nip' 				 => [
+			'nuptk' 				 => [
 				'type'      	 => 'CHAR',
 				'constraint' 	 => '20',
 			],
@@ -49,7 +49,7 @@ class Guru extends Migration
 			],
 			'status' 	 	 	 => [
 				'type'       	 => 'ENUM',
-				'constraint' 	 => ['asn', 'non_pnsd', 'honor'],
+				'constraint' 	 => ['asn', 'pppk', 'non_pnsd'],
 			],
 			'jabatan' 	 	 	 => [
 				'type'       	 => 'ENUM',

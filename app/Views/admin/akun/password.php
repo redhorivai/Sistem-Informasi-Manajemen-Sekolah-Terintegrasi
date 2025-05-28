@@ -36,19 +36,23 @@
 					</div>
 					<div class="form-group">
 						<label>Jenis kelamin: <span class='text-danger'>*</span></label>
-						<input type="text" class="form-control" id="jenis_kelamin" name="jenis_kelamin" value="<?= $jk; ?>" disabled>
+						<input type="text" class="form-control" id="jenis_kelamin" name="jenis_kelamin" value="<?= $jk; ?>"
+							disabled>
 					</div>
 					<div class="form-group">
 						<label>Telepon: <span class='text-danger'>*</span></label>
-						<input type="number" class="form-control" id="telepon" name="telepon" value="<?= $key->telepon; ?>" disabled>
+						<input type="number" class="form-control" id="telepon" name="telepon" value="<?= $key->telepon; ?>"
+							disabled>
 					</div>
 					<div class="form-group">
 						<label>Email: <span class='text-danger'>*</span></label>
-						<input type="email" class="form-control" id="email" name="email" value="<?= $key->email; ?>" disabled>
+						<input type="email" class="form-control" id="email" name="email" value="<?= $key->email; ?>"
+							disabled>
 					</div>
 					<div class="form-group">
 						<label>Alamat: <span class='text-danger'>*</span></label>
-						<textarea rows="3" id="alamat" name="alamat" class="form-control" disabled><?= $key->alamat; ?></textarea>
+						<textarea rows="3" id="alamat" name="alamat" class="form-control"
+							disabled><?= $key->alamat; ?></textarea>
 					</div>
 					<div class="form-group">
 						<label>Password Baru</label>

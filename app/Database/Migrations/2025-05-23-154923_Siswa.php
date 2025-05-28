@@ -56,7 +56,7 @@ class Siswa extends Migration
 				'null'			 => true
 			],
 			'waktu_masuk' 	 	 => [
-				'type'       	 => 'DATETIME',
+				'type'       	 => 'DATE',
 				'null'		 	 => true,
 			],
 			'status_cd' 	 	 => [

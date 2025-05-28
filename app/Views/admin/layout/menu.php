@@ -79,15 +79,28 @@
 						</p>
 					</a>
 				</li>
-				<li class="nav-header">PENGUMUMAN</li>
+				<li class="nav-header">MASTER SEKOLAH</li>
 				<li class="nav-item">
-					<a href="javascript:void(0)" class="nav-link">
-						<i class="nav-icon fas fa-user-plus"></i>
+					<a href="<?= base_url('admin/guru')?>" class="nav-link <?php if ($active == "guru") {
+																					echo "active";
+																				} ?>">
+						<i class="nav-icon fas fa-address-card"></i>
+						<p>
+							Data Guru
+						</p>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="<?= base_url('admin/siswa')?>" class="nav-link <?php if ($active == "siswa") {
+																					echo "active";
+																				} ?>">
+						<i class="nav-icon fas fa-id-card"></i>
 						<p>
 							Data Siswa
 						</p>
 					</a>
 				</li>
+				<li class="nav-header">PENGUMUMAN</li>
 				<li class="nav-item">
 					<a href="javascript:void(0)" class="nav-link">
 						<i class="nav-icon fas fa-user-graduate"></i>

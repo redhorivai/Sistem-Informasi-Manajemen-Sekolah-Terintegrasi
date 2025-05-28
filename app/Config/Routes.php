@@ -36,6 +36,8 @@ $routes->get('/admin/pengguna', 'Pengguna::index');
 $routes->get('/admin/jurusan', 'Jurusan::index');
 $routes->get('/admin/kelas', 'Kelas::index');
 $routes->get('/admin/akademik', 'Akademik::index');
+$routes->get('/admin/guru', 'Guru::index');
+$routes->get('/admin/siswa', 'Siswa::index');
 $routes->get('/admin/informasi', 'Informasi::index');
 $routes->get('/admin/password', 'Akun::password');
 

@@ -42,12 +42,12 @@
 									<tr>
 										<td>1</td>
 										<td style="width: 400px;">Nama Sistem</td>
-										<td>Penerimaan Penerimaan Peserta Didik Baru</td>
+										<td>Penerimaan Peserta Didik Baru dan Kelulusan Siswa</td>
 									</tr>
 									<tr>
 										<td>2</td>
 										<td style="width: 400px;">Deskripsi Sistem</td>
-										<td>Sistem ini digunakan untuk manajemen Penerimaan Peserta Didik Baru</td>
+										<td>Sistem ini digunakan untuk manajemen Penerimaan Peserta Didik Baru dan Pengumuman Kelulusan</td>
 									</tr>
 									<tr>
 										<td>3</td>

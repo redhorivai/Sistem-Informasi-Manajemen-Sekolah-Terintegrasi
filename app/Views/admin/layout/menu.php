@@ -100,12 +100,29 @@
 						</p>
 					</a>
 				</li>
+				<li class="nav-header">PPDB</li>
+				<li class="nav-item">
+					<a href="javascript:void(0)" class="nav-link">
+						<i class="nav-icon fas fa-bell"></i>
+						<p>
+							Verifikasi
+						</p>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="javascript:void(0)" class="nav-link">
+						<i class="nav-icon fas fa-newspaper"></i>
+						<p>
+							Kelulusan
+						</p>
+					</a>
+				</li>
 				<li class="nav-header">PENGUMUMAN</li>
 				<li class="nav-item">
 					<a href="javascript:void(0)" class="nav-link">
 						<i class="nav-icon fas fa-user-graduate"></i>
 						<p>
-							Data Kelulusan
+							Kelulusan Siswa
 						</p>
 					</a>
 				</li>

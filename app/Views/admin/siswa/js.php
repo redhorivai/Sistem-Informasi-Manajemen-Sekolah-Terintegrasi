@@ -1,6 +1,9 @@
 <script type="text/javascript">
     var method;
     var table;
+    let cachedOptions = null;
+    let debounceTimer;
+
 
     $(document).ready(function() {
         // Inisialisasi select2
@@ -28,6 +31,7 @@
             "responsive": true,
             "lengthChange": false,
             "autoWidth": false,
+            deferRender: true,
             processing: true,
             serverSide: true,
             order: [],
@@ -39,7 +43,7 @@
                 }
             },
             columnDefs: [{
-                targets: [0, 2, 3, 4],
+                targets: [0, 3, 4],
                 orderable: false
             }, ],
             columns: [{
@@ -67,7 +71,10 @@
 
         // Trigger reload saat select kelas berubah
         $('#kelas_id').on('change', function() {
-            table.ajax.reload();
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(() => {
+                table.ajax.reload();
+            }, 300); // delay 300ms
         });
     });
 
@@ -82,29 +89,38 @@
         $('#id_kelas').html('<option value="">-- Pilih Kelas --</option>');
         $('#id_jurusan').html('<option value="">-- Pilih Jurusan --</option>');
 
-        $.ajax({
-            url: "<?= site_url('siswa/getOptions') ?>",
-            type: "GET",
-            dataType: "JSON",
-            success: function(data) {
-                // Guru
-                $.each(data.guru, function(i, v) {
-                    $('#id_guru').append(`<option value="${v.id}">${v.nama_lengkap}</option>`);
-                });
+        if (cachedOptions) {
+            populateSelects(cachedOptions);
+        } else {
+            $.ajax({
+                url: "<?= site_url('siswa/getOptions') ?>",
+                type: "GET",
+                dataType: "JSON",
+                success: function(data) {
+                    cachedOptions = data;
+                    populateSelects(data);
+                },
+                error: function(xhr, status, error) {
+                    alert('Gagal memuat data select!');
+                }
+            });
+        }
+    }
 
-                // Kelas
-                $.each(data.kelas, function(i, v) {
-                    $('#id_kelas').append(`<option value="${v.id}">${v.nama_kelas}</option>`);
-                });
+    function populateSelects(data) {
+        // Guru
+        $.each(data.guru, function(i, v) {
+            $('#id_guru').append(`<option value="${v.id}">${v.nama_lengkap}</option>`);
+        });
 
-                // Jurusan
-                $.each(data.jurusan, function(i, v) {
-                    $('#id_jurusan').append(`<option value="${v.id}">${v.nama_jurusan}</option>`);
-                });
-            },
-            error: function(xhr, status, error) {
-                alert('Gagal memuat data select!');
-            }
+        // Kelas
+        $.each(data.kelas, function(i, v) {
+            $('#id_kelas').append(`<option value="${v.id}">${v.nama_kelas}</option>`);
+        });
+
+        // Jurusan
+        $.each(data.jurusan, function(i, v) {
+            $('#id_jurusan').append(`<option value="${v.id}">${v.nama_jurusan}</option>`);
         });
     }
 

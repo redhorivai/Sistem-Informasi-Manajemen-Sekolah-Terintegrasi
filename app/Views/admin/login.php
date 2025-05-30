@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Aplikasi PPDB dan Pengumuman Kelulusan</title>
+	<title>Sistem Informasi Manajemen Sekolah Terintegrasi - SiMaKora</title>
 
 	<!-- Google Font: Source Sans Pro -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -58,7 +58,7 @@
 						</div>
 						<!-- /.col -->
 						<div class="col-4">
-							<button type="submit" class="btn btn-primary btn-block">masuk</button>
+							<button id="btnLogin" type="submit" class="btn btn-primary btn-block">Login</button>
 						</div>
 						<!-- /.col -->
 					</div>
@@ -72,7 +72,7 @@
 	<?php
 	if (!empty(session()->getFlashdata('sukses'))) {
 		echo '<div class="flash_msg" data-successful="' . session()->getFlashdata('sukses') . '"></div>';
-	}  else if (!empty(session()->getFlashdata('gagal'))) {
+	} else if (!empty(session()->getFlashdata('gagal'))) {
 		echo '<div class="flash_msg" data-failed="' . session()->getFlashdata('gagal') . '"></div>';
 	} else if (!empty(session()->getFlashdata('error'))) {
 		echo '<div class="flash_msg" data-goofy="' . session()->getFlashdata('error') . '"></div>';
@@ -94,55 +94,57 @@
 		$(document).ready(function() {
 			$('#login_form').submit(function(e) {
 				e.preventDefault();
-				if ($('#username').val() == "") {
-					toastr.warning(`Silakan masukan username anda`);
-					$("#username").focus();
-				} else if ($('#password').val() == "") {
-					toastr.warning(`Silakan masukan kata sandi anda`);
-					$("#password").focus();
-				} else {
-					$.ajax({
-						type: "POST",
-						url: "<?= base_url('login/get_login'); ?>",
-						data: $(this).serialize(),
-						dataType: "JSON",
-						success: function(response) {
-							toastr.options = {
-								"closeButton": false,
-								"debug": false,
-								"newestOnTop": false,
-								"progressBar": true,
-								"positionClass": "toast-top-center",
-								"preventDuplicates": false,
-								"onclick": null,
-								"showDuration": "300",
-								"hideDuration": "1000",
-								"timeOut": "2000",
-								"extendedTimeOut": "1000",
-								"showEasing": "swing",
-								"hideEasing": "linear",
-								"showMethod": "fadeIn",
-								"hideMethod": "fadeOut"
-							}
-							if (response.sukses) {
-								toastr.success(response.sukses);
-								window.setTimeout(function() {
-									window.location.replace("<?= base_url('/admin/dashboard'); ?>");
-								}, 2000);
-							}
-							else if (response.gagal){
-								toastr.info(response.gagal);
-							}
-							else {
-								toastr.warning(response.status);
-							}
-						}
-					});
-					return false;
+
+				let username = $('#username').val().trim();
+				let password = $('#password').val().trim();
+
+				if (username === "") {
+					toastr.warning('Silakan masukan username anda');
+					$('#username').focus();
+					return;
+				} else if (password === "") {
+					toastr.warning('Silakan masukan kata sandi anda');
+					$('#password').focus();
+					return;
 				}
+
+				$.ajax({
+					type: "POST",
+					url: "<?= base_url('login/get_login'); ?>",
+					data: $(this).serialize(),
+					dataType: "JSON",
+					beforeSend: function() {
+						$('#btnLogin').prop('disabled', true).text('Memproses...');
+					},
+					success: function(response) {
+						toastr.options = {
+							"closeButton": true,
+							"progressBar": true,
+							"positionClass": "toast-top-center",
+							"timeOut": "2000"
+						};
+
+						if (response.status === true) {
+							toastr.success(response.message);
+							setTimeout(() => {
+								window.location.href = "<?= base_url('/admin/dashboard'); ?>";
+							}, 2000);
+						} else {
+							toastr.error(response.message || "Login gagal. Silakan coba lagi.");
+						}
+					},
+					error: function(xhr, status, error) {
+						console.error(xhr.responseText);
+						toastr.error('Terjadi kesalahan pada server.');
+					},
+					complete: function() {
+						$('#btnLogin').prop('disabled', false).text('Login');
+					}
+				});
 			});
 		});
 	</script>
+
 </body>
 
 </html>

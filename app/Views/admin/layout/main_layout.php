@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Aplikasi PPDB dan Pengumuman Kelulusan</title>
+	<title>Sistem Informasi Manajemen Sekolah Terintegrasi - SiMaKora</title>
 
 	<!-- google font -->
 	<link rel="stylesheet" href="<?= base_url(); ?>/assets-admin/css/fonts-googleapis.css">

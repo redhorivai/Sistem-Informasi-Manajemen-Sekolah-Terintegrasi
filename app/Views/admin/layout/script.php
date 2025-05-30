@@ -34,6 +34,7 @@
 <!-- Select2 -->
 <script src="<?= base_url(); ?>/assets-admin/plugins/select2/js/select2.full.min.js"></script>
 
+
 <?php
 if ($active == 'pengguna') {
 	echo view('admin/pengguna/js');
@@ -47,5 +48,7 @@ if ($active == 'pengguna') {
 	echo view('admin/guru/js');
 } else if ($active == 'siswa') {
 	echo view('admin/siswa/js');
+} else if ($active == 'beritaartikel') {
+	echo view('admin/beritaartikel/js');
 }
 ?>

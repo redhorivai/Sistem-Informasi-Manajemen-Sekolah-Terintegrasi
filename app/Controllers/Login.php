@@ -24,35 +24,37 @@ class Login extends BaseController
 	public function get_login()
 	{
 		if ($this->request->isAJAX()) {
-			$username		= $this->request->getVar('username');
-			$password		= sha1(md5($this->request->getVar('password')));
-			$cek_user		= $this->m_login->cek_user($username);
-			if ($cek_user['status_user'] == 'deactive') {
-				$msg = ['status' => "Login Gagal.. Akun Anda tidak aktif."];
-			} else if ($cek_user['username'] != $username) {
-				$msg = ['status' => "Login Gagal.. Username tidak ditemukan."];
+			$username = $this->request->getVar('username');
+			$password = sha1(md5($this->request->getVar('password')));
+			$cek_user = $this->m_login->cek_user($username);
+
+			if (!$cek_user) {
+				$msg = ['status' => false, 'message' => 'Username tidak ditemukan.'];
+			} elseif ($cek_user['status_user'] == 'deactive') {
+				$msg = ['status' => false, 'message' => 'Akun Anda tidak aktif.'];
 			} else {
-				$cek		= $this->m_login->login_check($username, $password);
-				// print_r(json_encode($cek));
-				if ($cek['username'] == $username && $cek['password'] == $password) {
-					session()->set('id', $cek['id']);
-					session()->set('nama', $cek['nama']);
-					session()->set('jenis_kelamin', $cek['jenis_kelamin']);
-					session()->set('telepon', $cek['telepon']);
-					session()->set('username', $cek['username']);
-					session()->set('level', $cek['level']);
-					session()->set('status_user', $cek['status_user']);
-					session()->set('alamat', $cek['alamat']);
-					$msg 	= ['sukses'	=> 'Selamat Datang ..' . session()->get('nama') . '',];
-				} else
-					$msg 	= ['gagal'	=> 'Login Gagal.. Username Atau Kata Sandi yang anda masukkan salah.'];
+				$cek = $this->m_login->login_check($username, $password);
+				if ($cek && $cek['username'] == $username && $cek['password'] == $password) {
+					session()->set([
+						'id' => $cek['id'],
+						'nama' => $cek['nama'],
+						'jenis_kelamin' => $cek['jenis_kelamin'],
+						'telepon' => $cek['telepon'],
+						'username' => $cek['username'],
+						'level' => $cek['level'],
+						'status_user' => $cek['status_user'],
+						'alamat' => $cek['alamat'],
+					]);
+					$msg = ['status' => true, 'message' => 'Selamat datang ' . $cek['nama']];
+				} else {
+					$msg = ['status' => false, 'message' => 'Username atau password salah.'];
+				}
 			}
-			// print_r(json_encode($msg));
-			echo json_encode($msg);
-		} else {
-			exit('Request Error');
+			return $this->response->setJSON($msg);
 		}
+		exit('Request Error');
 	}
+
 
 	public function logout()
 	{

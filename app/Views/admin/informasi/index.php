@@ -26,7 +26,6 @@
 				<div class="col-12">
 					<div class="card">
 						<div class="card-header">
-							<!-- <span><a onclick="_tambahData()"><button type="button" class="btn bg-gradient-primary"><i class="nav-icon fas fa-plus"></i> Tambah Data</button></a></span> -->
 						</div>
 						<!-- /.card-header -->
 						<div class="card-body">
@@ -42,12 +41,12 @@
 									<tr>
 										<td>1</td>
 										<td style="width: 400px;">Nama Sistem</td>
-										<td>Penerimaan Peserta Didik Baru dan Kelulusan Siswa</td>
+										<td>Sistem Informasi Manajemen Sekolah Terintegrasi - SiMaKora</td>
 									</tr>
 									<tr>
 										<td>2</td>
 										<td style="width: 400px;">Deskripsi Sistem</td>
-										<td>Sistem ini digunakan untuk manajemen Penerimaan Peserta Didik Baru dan Pengumuman Kelulusan</td>
+										<td>Sistem ini digunakan untuk manajemen Penerimaan Peserta Didik Baru, Manajemen Sekolah dan Pengumuman Kelulusan</td>
 									</tr>
 									<tr>
 										<td>3</td>
@@ -106,66 +105,4 @@
 	</section>
 	<!-- /.content -->
 </div>
-<!-- Modal -->
-<!-- Modal -->
-<!-- <div class="modal fade" id="modal-form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Modal title</h5>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<form action="#" id='form' class="form-data">
-				<input type="hidden" name="id">
-				<div class="modal-body">
-					<div class="card-body">
-						<div class="form-group">
-							<label>Nama: <span class='text-danger'>*</span></label>
-							<input type="text" class="form-control" id="nama" name="nama" placeholder="masukan nama" onchange="remove(id)">
-						</div>
-						<div class="form-group">
-							<label>Jenis kelamin: <span class='text-danger'>*</span></label>
-							<select class="form-control select2 select2-danger" data-dropdown-css-class="select2-danger" id="jenis_kelamin" name="jenis_kelamin" data-allow-clear="true" style="width:100%">
-								<option disabled selected>-- Pilih Jenis Kelamin --</option>
-								<option value="L">Laki-laki</option>
-								<option value="P">Perempuan</option>
-							</select>
-						</div>
-						<div class="form-group">
-							<label>Telepon: <span class='text-danger'>*</span></label>
-							<input type="number" class="form-control" id="telepon" name="telepon" placeholder="masukan telepon" onchange="remove(id)">
-						</div>
-						<div class="form-group">
-							<label>Email: <span class='text-danger'>*</span></label>
-							<input type="email" class="form-control" id="email" name="email" placeholder="masukan email" onchange="remove(id)">
-						</div>
-						<div class="form-group">
-							<label>Username: <span class='text-danger'>*</span></label>
-							<input type="email" class="form-control" id="username" name="username" placeholder="masukan username" onchange="remove(id)">
-						</div>
-						<div class="form-group">
-							<label>Level Akses: <span class='text-danger'>*</span></label>
-							<select class="form-control select2 select2-danger" data-dropdown-css-class="select2-danger" id="level" name="level" data-allow-clear="true" style="width:100%">
-								<option disabled selected>-- Pilih Level Akses --</option>
-								<option value="user">User</option>
-								<option value="admin">Admin</option>
-							</select>
-						</div>
-						<div class="form-group">
-							<label>Alamat: <span class='text-danger'>*</span></label>
-							<textarea rows="3" id="alamat" name="alamat" class="form-control"></textarea>
-						</div>
-					</div>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
-					<button type="button" class="btn btn-primary" onclick="_simpanData()">Simpan Data</button>
-				</div>
-			</form>
-		</div>
-	</div>
-</div> -->
-<!-- /.modal -->
 <?= $this->endSection() ?>

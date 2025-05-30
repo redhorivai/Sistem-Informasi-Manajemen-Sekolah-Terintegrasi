@@ -1,5 +1,5 @@
 <!-- Main Sidebar Container -->
-<aside class="main-sidebar sidebar-dark-primary elevation-4">
+<aside class="main-sidebar elevation-4 sidebar-light-danger">
 	<!-- Brand Logo -->
 	<a href="javascript:void(0)" class="brand-link">
 		<img src="<?= base_url(); ?>/assets-admin/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
@@ -38,7 +38,18 @@
 						</p>
 					</a>
 				</li>
-				<li class="nav-header">DATA MASTER</li>
+				<li class="nav-header text-bold">DEPAN WEBISTE</li>
+				<li class="nav-item">
+					<a href="<?= base_url('admin/berita-artikel')?>" class="nav-link <?php if ($active == "beritaartikel") {
+																					echo "active";
+																				} ?>">
+						<i class="nav-icon fas fa-newspaper"></i>
+						<p>
+							Berita / Artikel
+						</p>
+					</a>
+				</li>
+				<li class="nav-header text-bold">DATA MASTER</li>
 				<li class="nav-item">
 					<a href="<?= base_url('admin/pengguna') ?>" class="nav-link <?php if ($active == "pengguna") {
 																					echo "active";
@@ -79,7 +90,7 @@
 						</p>
 					</a>
 				</li>
-				<li class="nav-header">MASTER SEKOLAH</li>
+				<li class="nav-header text-bold">MASTER SEKOLAH</li>
 				<li class="nav-item">
 					<a href="<?= base_url('admin/guru')?>" class="nav-link <?php if ($active == "guru") {
 																					echo "active";
@@ -96,11 +107,11 @@
 																				} ?>">
 						<i class="nav-icon fas fa-id-card"></i>
 						<p>
-							Data Siswa
+							Data Siswa/Siswi
 						</p>
 					</a>
 				</li>
-				<li class="nav-header">PPDB</li>
+				<li class="nav-header text-bold">PPDB</li>
 				<li class="nav-item">
 					<a href="javascript:void(0)" class="nav-link">
 						<i class="nav-icon fas fa-bell"></i>
@@ -117,16 +128,16 @@
 						</p>
 					</a>
 				</li>
-				<li class="nav-header">PENGUMUMAN</li>
+				<li class="nav-header text-bold">PENGUMUMAN</li>
 				<li class="nav-item">
 					<a href="javascript:void(0)" class="nav-link">
 						<i class="nav-icon fas fa-user-graduate"></i>
 						<p>
-							Kelulusan Siswa
+							Kelulusan Siswa/Siswi
 						</p>
 					</a>
 				</li>
-				<li class="nav-header">LAINNYA</li>
+				<li class="nav-header text-bold">LAINNYA</li>
 				<li class="nav-item">
 					<a href="<?= base_url('admin/password') ?>" class="nav-link <?php if ($active == "password") {
 																					echo "active";

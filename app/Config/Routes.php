@@ -16,7 +16,7 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php'))
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Login');
+$routes->setDefaultController('Home');
 $routes->setDefaultMethod('');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
@@ -30,6 +30,7 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+$routes->get('/', 'Home::index');
 $routes->get('/admin', 'Login::index');
 $routes->get('/admin/dashboard', 'Dashboard::index');
 $routes->get('/admin/berita-artikel', 'BeritaArtikel::index');

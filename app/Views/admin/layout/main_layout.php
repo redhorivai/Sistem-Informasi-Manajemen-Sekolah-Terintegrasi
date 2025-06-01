@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sistem Informasi Manajemen Sekolah Terintegrasi - SiMaKora</title>
+	<link rel="shortcut icon" type="image/jpg" href="<?= base_url(); ?>/assets-admin/img/logo/logo.ico"/>
 
 	<!-- google font -->
 	<link rel="stylesheet" href="<?= base_url(); ?>/assets-admin/css/fonts-googleapis.css">
@@ -35,9 +36,9 @@
 
 <body>
 	<!-- Preloader -->
-	<!-- <div class="preloader flex-column justify-content-center align-items-center">
-		<img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
-	</div> -->
+	<div class="preloader flex-column justify-content-center align-items-center">
+		<img class="animation__shake" src="<?= base_url(); ?>/assets-admin/img/logo/logo.jpg" alt="AdminLTELogo" height="60" width="60">
+	</div>
 	<!-- SIDEBAR MENU -->
 	<?= $this->include('admin/layout/menu') ?>
 	<!-- HEADER -->

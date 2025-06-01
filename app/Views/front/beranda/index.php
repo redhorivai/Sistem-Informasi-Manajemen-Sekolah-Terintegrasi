@@ -3,7 +3,7 @@
 <?= $this->section('content') ?>
 <!-- content,wrapper,contain page content -->
 <div class="hero-slide owl-carousel site-blocks-cover">
-    <div class="intro-section" style="background-image: url('<?= base_url();?>/assets-front/images/hero_1.jpg');">
+    <div class="intro-section" style="background-image: url('<?= base_url(); ?>/assets-front/images/hero_1.jpg');">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
@@ -13,7 +13,7 @@
         </div>
     </div>
 
-    <div class="intro-section" style="background-image: url('<?= base_url();?>/assets-front/images/hero_1.jpg');">
+    <div class="intro-section" style="background-image: url('<?= base_url(); ?>/assets-front/images/hero_1.jpg');">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
@@ -98,7 +98,7 @@
                 <div class="owl-slide-3 owl-carousel">
                     <div class="course-1-item">
                         <figure class="thumnail">
-                            <a href="course-single.html"><img src="<?= base_url();?>/assets-front/images/course_1.jpg" alt="Image" class="img-fluid"></a>
+                            <a href="course-single.html"><img src="<?= base_url(); ?>/assets-front/images/course_1.jpg" alt="Image" class="img-fluid"></a>
                             <div class="price">$99.00</div>
                             <div class="category">
                                 <h3>Mobile Application</h3>
@@ -120,7 +120,7 @@
 
                     <div class="course-1-item">
                         <figure class="thumnail">
-                            <a href="course-single.html"><img src="<?= base_url();?>/assets-front/images/course_2.jpg" alt="Image" class="img-fluid"></a>
+                            <a href="course-single.html"><img src="<?= base_url(); ?>/assets-front/images/course_2.jpg" alt="Image" class="img-fluid"></a>
                             <div class="price">$99.00</div>
                             <div class="category">
                                 <h3>Web Design</h3>
@@ -142,7 +142,7 @@
 
                     <div class="course-1-item">
                         <figure class="thumnail">
-                            <a href="course-single.html"><img src="<?= base_url();?>/assets-front/images/course_3.jpg" alt="Image" class="img-fluid"></a>
+                            <a href="course-single.html"><img src="<?= base_url(); ?>/assets-front/images/course_3.jpg" alt="Image" class="img-fluid"></a>
                             <div class="price">$99.00</div>
                             <div class="category">
                                 <h3>Arithmetic</h3>
@@ -164,7 +164,7 @@
 
                     <div class="course-1-item">
                         <figure class="thumnail">
-                            <a href="course-single.html"><img src="<?= base_url();?>/assets-front/images/course_4.jpg" alt="Image" class="img-fluid"></a>
+                            <a href="course-single.html"><img src="<?= base_url(); ?>/assets-front/images/course_4.jpg" alt="Image" class="img-fluid"></a>
                             <div class="price">$99.00</div>
                             <div class="category">
                                 <h3>Mobile Application</h3>
@@ -186,7 +186,7 @@
 
                     <div class="course-1-item">
                         <figure class="thumnail">
-                            <a href="course-single.html"><img src="<?= base_url();?>/assets-front/images/course_5.jpg" alt="Image" class="img-fluid"></a>
+                            <a href="course-single.html"><img src="<?= base_url(); ?>/assets-front/images/course_5.jpg" alt="Image" class="img-fluid"></a>
                             <div class="price">$99.00</div>
                             <div class="category">
                                 <h3>Web Design</h3>
@@ -208,7 +208,7 @@
 
                     <div class="course-1-item">
                         <figure class="thumnail">
-                            <a href="course-single.html"><img src="<?= base_url();?>/assets-front/images/course_6.jpg" alt="Image" class="img-fluid"></a>
+                            <a href="course-single.html"><img src="<?= base_url(); ?>/assets-front/images/course_6.jpg" alt="Image" class="img-fluid"></a>
                             <div class="price">$99.00</div>
                             <div class="category">
                                 <h3>Mobile Application</h3>
@@ -241,7 +241,7 @@
 
 
 
-<div class="section-bg style-1" style="background-image: url('<?= base_url();?>/assets-front/images/about_1.jpg');">
+<div class="section-bg style-1" style="background-image: url('<?= base_url(); ?>/assets-front/images/about_1.jpg');">
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
@@ -274,7 +274,7 @@
 
             <div class="ftco-testimonial-1">
                 <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-                    <img src="<?= base_url();?>/assets-front/images/person_1.jpg" alt="Image" class="img-fluid mr-3">
+                    <img src="<?= base_url(); ?>/assets-front/images/person_1.jpg" alt="Image" class="img-fluid mr-3">
                     <div>
                         <h3>Allison Holmes</h3>
                         <span>Designer</span>
@@ -287,7 +287,7 @@
 
             <div class="ftco-testimonial-1">
                 <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-                    <img src="<?= base_url();?>/assets-front/images/person_2.jpg" alt="Image" class="img-fluid mr-3">
+                    <img src="<?= base_url(); ?>/assets-front/images/person_2.jpg" alt="Image" class="img-fluid mr-3">
                     <div>
                         <h3>Allison Holmes</h3>
                         <span>Designer</span>
@@ -300,7 +300,7 @@
 
             <div class="ftco-testimonial-1">
                 <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-                    <img src="<?= base_url();?>/assets-front/images/person_4.jpg" alt="Image" class="img-fluid mr-3">
+                    <img src="<?= base_url(); ?>/assets-front/images/person_4.jpg" alt="Image" class="img-fluid mr-3">
                     <div>
                         <h3>Allison Holmes</h3>
                         <span>Designer</span>
@@ -313,7 +313,7 @@
 
             <div class="ftco-testimonial-1">
                 <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-                    <img src="<?= base_url();?>/assets-front/images/person_3.jpg" alt="Image" class="img-fluid mr-3">
+                    <img src="<?= base_url(); ?>/assets-front/images/person_3.jpg" alt="Image" class="img-fluid mr-3">
                     <div>
                         <h3>Allison Holmes</h3>
                         <span>Designer</span>
@@ -326,7 +326,7 @@
 
             <div class="ftco-testimonial-1">
                 <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-                    <img src="<?= base_url();?>/assets-front/images/person_2.jpg" alt="Image" class="img-fluid mr-3">
+                    <img src="<?= base_url(); ?>/assets-front/images/person_2.jpg" alt="Image" class="img-fluid mr-3">
                     <div>
                         <h3>Allison Holmes</h3>
                         <span>Designer</span>
@@ -339,7 +339,7 @@
 
             <div class="ftco-testimonial-1">
                 <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-                    <img src="<?= base_url();?>/assets-front/images/person_4.jpg" alt="Image" class="img-fluid mr-3">
+                    <img src="<?= base_url(); ?>/assets-front/images/person_4.jpg" alt="Image" class="img-fluid mr-3">
                     <div>
                         <h3>Allison Holmes</h3>
                         <span>Designer</span>
@@ -356,7 +356,7 @@
 </div>
 
 
-<div class="section-bg style-1" style="background-image: url('<?= base_url();?>/assets-front/images/hero_1.jpg');">
+<div class="section-bg style-1" style="background-image: url('<?= base_url(); ?>/assets-front/images/hero_1.jpg');">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
@@ -392,7 +392,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="post-entry-big">
-                            <a href="news-single.html" class="img-link"><img src="<?= base_url();?>/assets-front/images/blog_large_1.jpg" alt="Image" class="img-fluid"></a>
+                            <a href="news-single.html" class="img-link"><img src="<?= base_url(); ?>/assets-front/images/blog_large_1.jpg" alt="Image" class="img-fluid"></a>
                             <div class="post-content">
                                 <div class="post-meta">
                                     <a href="#">June 6, 2019</a>
@@ -405,7 +405,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="post-entry-big horizontal d-flex mb-4">
-                            <a href="news-single.html" class="img-link mr-4"><img src="<?= base_url();?>/assets-front/images/blog_1.jpg" alt="Image" class="img-fluid"></a>
+                            <a href="news-single.html" class="img-link mr-4"><img src="<?= base_url(); ?>/assets-front/images/blog_1.jpg" alt="Image" class="img-fluid"></a>
                             <div class="post-content">
                                 <div class="post-meta">
                                     <a href="#">June 6, 2019</a>
@@ -417,7 +417,7 @@
                         </div>
 
                         <div class="post-entry-big horizontal d-flex mb-4">
-                            <a href="news-single.html" class="img-link mr-4"><img src="<?= base_url();?>/assets-front/images/blog_2.jpg" alt="Image" class="img-fluid"></a>
+                            <a href="news-single.html" class="img-link mr-4"><img src="<?= base_url(); ?>/assets-front/images/blog_2.jpg" alt="Image" class="img-fluid"></a>
                             <div class="post-content">
                                 <div class="post-meta">
                                     <a href="#">June 6, 2019</a>
@@ -429,7 +429,7 @@
                         </div>
 
                         <div class="post-entry-big horizontal d-flex mb-4">
-                            <a href="news-single.html" class="img-link mr-4"><img src="<?= base_url();?>/assets-front/images/blog_1.jpg" alt="Image" class="img-fluid"></a>
+                            <a href="news-single.html" class="img-link mr-4"><img src="<?= base_url(); ?>/assets-front/images/blog_1.jpg" alt="Image" class="img-fluid"></a>
                             <div class="post-content">
                                 <div class="post-meta">
                                     <a href="#">June 6, 2019</a>
@@ -451,20 +451,20 @@
                     <span class="play">
                         <span class="icon-play"></span>
                     </span>
-                    <img src="<?= base_url();?>/assets-front/images/course_5.jpg" alt="Image" class="img-fluid">
+                    <img src="<?= base_url(); ?>/assets-front/images/course_5.jpg" alt="Image" class="img-fluid">
                 </a>
                 <a href="https://vimeo.com/45830194" class="video-1 mb-4" data-fancybox="" data-ratio="2">
                     <span class="play">
                         <span class="icon-play"></span>
                     </span>
-                    <img src="<?= base_url();?>/assets-front/images/course_5.jpg" alt="Image" class="img-fluid">
+                    <img src="<?= base_url(); ?>/assets-front/images/course_5.jpg" alt="Image" class="img-fluid">
                 </a>
             </div>
         </div>
     </div>
 </div>
 
-<div class="site-section ftco-subscribe-1" style="background-image: url('<?= base_url();?>/assets-front/images/bg_1.jpg')">
+<div class="site-section ftco-subscribe-1" style="background-image: url('<?= base_url(); ?>/assets-front/images/bg_1.jpg')">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-7">

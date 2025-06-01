@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistem Informasi Manajemen Sekolah Terintegrasi - SiMaKora</title>
+	<link rel="shortcut icon" type="image/jpg" href="<?= base_url(); ?>/assets-admin/img/logo/logo.ico"/>
+
 
     <!-- assets -->
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
@@ -20,7 +22,7 @@
 
     <link rel="stylesheet" href="<?= base_url(); ?>/assets-front/css/bootstrap-datepicker.css">
 
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>/assets-front/fonts/flaticon/font/flaticon.css">
 
     <link rel="stylesheet" href="<?= base_url(); ?>/assets-front/css/aos.css">
     <link href="<?= base_url(); ?>/assets-front/css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">

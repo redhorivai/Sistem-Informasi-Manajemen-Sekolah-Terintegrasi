@@ -1,5 +1,5 @@
 <!-- Main Sidebar Container -->
-<aside class="main-sidebar elevation-4 sidebar-light-danger">
+<aside class="main-sidebar elevation-4 sidebar-light-primary">
 	<!-- Brand Logo -->
 	<a href="javascript:void(0)" class="brand-link">
 		<img src="<?= base_url(); ?>/assets-admin/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
@@ -46,6 +46,16 @@
 						<i class="nav-icon fas fa-newspaper"></i>
 						<p>
 							Berita / Artikel
+						</p>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="<?= base_url('admin/pengaturan')?>" class="nav-link <?php if ($active == "pengaturansekolah") {
+																					echo "active";
+																				} ?>">
+						<i class="nav-icon fas fa-list"></i>
+						<p>
+							Pengaturan
 						</p>
 					</a>
 				</li>
@@ -118,14 +128,16 @@
 						<p>
 							Verifikasi
 						</p>
+						<span class="right badge badge-danger">Soon</span>
 					</a>
 				</li>
 				<li class="nav-item">
 					<a href="javascript:void(0)" class="nav-link">
-						<i class="nav-icon fas fa-newspaper"></i>
+						<i class="nav-icon fas fa-check"></i>
 						<p>
 							Kelulusan
 						</p>
+						<span class="right badge badge-danger">Soon</span>
 					</a>
 				</li>
 				<li class="nav-header text-bold">PENGUMUMAN</li>
@@ -133,8 +145,9 @@
 					<a href="javascript:void(0)" class="nav-link">
 						<i class="nav-icon fas fa-user-graduate"></i>
 						<p>
-							Kelulusan Siswa/Siswi
+							Kelulusan Siswa/i
 						</p>
+						<span class="right badge badge-danger">Soon</span>
 					</a>
 				</li>
 				<li class="nav-header text-bold">LAINNYA</li>

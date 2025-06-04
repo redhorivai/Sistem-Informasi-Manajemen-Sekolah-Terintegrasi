@@ -19,8 +19,8 @@
 
 </head>
 
-<body class="hold-transition login-page" style="background-color:rgb(56, 144, 171);">
-	<div class="login-box">
+<body class="hold-transition login-page" style="background: url('<?= base_url();?>/assets-admin/img/bg.svg');">
+	<div class="login-box" id="main-content">
 		<!-- /.login-logo -->
 		<div class="card card-outline card-primary">
 			<div class="card-header text-center">

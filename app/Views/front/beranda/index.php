@@ -238,9 +238,6 @@
     </div>
 </div>
 
-
-
-
 <div class="section-bg style-1" style="background-image: url('<?= base_url(); ?>/assets-front/images/about_1.jpg');">
     <div class="container">
         <div class="row">

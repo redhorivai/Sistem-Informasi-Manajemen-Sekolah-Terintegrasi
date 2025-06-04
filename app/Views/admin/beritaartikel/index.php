@@ -89,11 +89,11 @@
 							<textarea rows="5" id="deskripsi" name="deskripsi" class="form-control"></textarea>
 						</div>
 						<div class="form-group">
-							<label for="exampleInputFile">Thumbnail</label>
+							<label for="thumbnail">Thumbnail</label>
 							<div class="input-group">
 								<div class="custom-file">
 									<input type="file" class="custom-file-input" id="thumbnail" name="thumbnail" onchange="previewImage(this, 'preview-thumbnail')">
-									<label class="custom-file-label" for="exampleInputFile">Choose file</label>
+									<label class="custom-file-label" for="thumbnail">Choose file</label>
 								</div>
 								<div class="input-group-append">
 									<span class="input-group-text">Upload</span>
@@ -102,11 +102,11 @@
 							<img id="preview-thumbnail" class="img-fluid mt-2" style="max-height: 150px;">
 						</div>
 						<div class="form-group">
-							<label for="exampleInputFile">Banner</label>
+							<label for="banner">Banner</label>
 							<div class="input-group">
 								<div class="custom-file">
 									<input type="file" class="custom-file-input" id="banner" name="banner" onchange="previewImage(this, 'preview-banner')">
-									<label class="custom-file-label" for="exampleInputFile">Choose file</label>
+									<label class="custom-file-label" for="banner">Choose file</label>
 								</div>
 								<div class="input-group-append">
 									<span class="input-group-text">Upload</span>
